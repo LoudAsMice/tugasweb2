@@ -1,3 +1,26 @@
+<?php
+
+function test_input ($data) {
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
+$nama = $nis = $kelas = $tanggal = $tempat = $alamat = $jkel = '';
+
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nama = test_input($_POST["nama"]);
+    $nis = test_input($_POST["nis"]);
+    $kelas = test_input($_POST["kelas"]);
+    $tanggal = test_input($_POST["tanggal"]);
+    $tempat = test_input($_POST["tempat"]);
+    $alamat = test_input($_POST["alamat"]);
+    $jkel = test_input($_POST["jkel"]);
+
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +47,7 @@
                 <th align="right">Nama</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nama" id="nama">
+                    <input type="text" name="nama" id="nama" value="<?php echo $nama;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('nama');?></b></p></td>
             </tr>
@@ -32,7 +55,7 @@
                 <th align="right">NIS</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nis" id="nis">
+                    <input type="text" name="nis" id="nis" value="<?php echo $nis;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('nis');?></b></p></td>
             </tr>
@@ -40,7 +63,7 @@
                 <th align="right">Kelas</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="kelas" id="kelas">
+                    <input type="text" name="kelas" id="kelas" value="<?php echo $kelas;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('kelas');?></b></p></td>
             </tr>
@@ -48,7 +71,7 @@
                 <th align="right">Tanggal Lahir</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="tanggal" id="tanggal">
+                    <input type="text" name="tanggal" id="tanggal" value="<?php echo $tanggal;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('tanggal');?></b></p></td>
             </tr>
@@ -56,7 +79,7 @@
                 <th align="right">Tempat Lahir</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="tempat" id="tempat">
+                    <input type="text" name="tempat" id="tempat" value="<?php echo $tempat;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('tempat');?></b></p></td>
             </tr>
@@ -64,7 +87,7 @@
                 <th align="right">Alamat</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="alamat" id="alamat">
+                    <input type="text" name="alamat" id="alamat" value="<?php echo $nama;?>">
                 </td>
                 <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('alamat');?></b></p></td>
             </tr>
@@ -82,7 +105,7 @@
                 <th>:</th>
                 <td>
                     <select name="agama" id="agama">
-                        <option value="">Agama</option>
+                        <option value=" value="<?php echo $nama;?>">Agama</option>
                         <option value="Islam">Islam</option>
                         <option value="Kristen">Kristen</option>
                         <option value="Katolik">Katolik</option>
