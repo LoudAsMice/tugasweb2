@@ -58,7 +58,6 @@ class Input extends BaseController{
                 ],
             ])) 
         {
-            $validation = \Config\Services::validation();
             return redirect()->to('../input')->withInput();
         }else{
 
