@@ -1,5 +1,5 @@
-# tugasweb2
-* Universitas Bina Sarana Informatika *
+# Tugas Web Programming 2
+* Universitas Bina Sarana Informatika
 
 Kelompok 1
 
