@@ -9,5 +9,5 @@ Kelompok 1
 15200310 - Mochamad Rakha Rayhan
 15200339 - Naufal Gymnastiar
 
---php 8
-
+* PHP 8
+* CI 4
