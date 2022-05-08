@@ -46,7 +46,7 @@ class Input extends BaseController{
                 ],
             ])) 
         {
-            return view('form_input', [
+            echo view('form_input', [
                 'validation' => $this->validator,
             ]);
         } else {
