@@ -1,0 +1,99 @@
+CRITICAL - 2022-05-04 00:04:14 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:05:55 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:05:56 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:06:21 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:06:23 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:06:23 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:06:23 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:11:22 --> Undefined array key "cari"
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 00:11:25 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tugasweb2\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tugasweb2\system\Model.php(270): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tugasweb2\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\tugasweb2\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(27): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->insertdata()
+#6 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 00:11:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\tugasweb2\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\tugasweb2\system\Model.php(270): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\tugasweb2\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#3 C:\xampp\htdocs\tugasweb2\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#4 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(27): CodeIgniter\Model->insert(Array)
+#5 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->insertdata()
+#6 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-04 23:02:32 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\tugasweb2\system\Model.php on line 836 and at least 1 expected
+#0 C:\xampp\htdocs\tugasweb2\system\Model.php(836): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(17): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#4 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-04 23:05:12 --> Unsupported operand types: null + string
+#0 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 23:14:14 --> Array to string conversion
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->insertdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

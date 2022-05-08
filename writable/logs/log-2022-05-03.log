@@ -1,0 +1,14 @@
+CRITICAL - 2022-05-03 23:49:22 --> Array to string conversion
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-03 23:49:25 --> Array to string conversion
+#0 C:\xampp\htdocs\tugasweb2\app\Controllers\Product.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(936): App\Controllers\Product->getdata()
+#2 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 C:\xampp\htdocs\tugasweb2\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tugasweb2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
