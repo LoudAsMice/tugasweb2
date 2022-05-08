@@ -1,26 +1,3 @@
-<?php
-
-function test_input ($data) {
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
-
-$nama = $nis = $kelas = $tanggal = $tempat = $alamat = $jkel = '';
-
-if($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nama = test_input($_POST["nama"]);
-    $nis = test_input($_POST["nis"]);
-    $kelas = test_input($_POST["kelas"]);
-    $tanggal = test_input($_POST["tanggal"]);
-    $tempat = test_input($_POST["tempat"]);
-    $alamat = test_input($_POST["alamat"]);
-    $jkel = test_input($_POST["jkel"]);
-
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,15 +8,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 <center>
-    <?= form_open('input')?>
+    <form action="input/hasil" method="POST">
         <table>
             <tr>
-                <th colspan="3.5" align="right">
+                <th colspan="3.5" align="mid">
                     Form Input Data Siswa
                 </th>
             </tr>
             <tr>
-                <td colspan="4">
+                <td colspan="3">
                     <hr>
                 </td>
             </tr>
@@ -47,65 +24,65 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                 <th align="right">Nama</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nama" id="nama" value="<?php echo $nama;?>">
+                    <input type="text" name="nama" id="nama" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('nama');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('nama');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">NIS</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="nis" id="nis" value="<?php echo $nis;?>">
+                    <input type="text" name="nis" id="nis" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('nis');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('nis');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Kelas</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="kelas" id="kelas" value="<?php echo $kelas;?>">
+                    <input type="text" name="kelas" id="kelas" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('kelas');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('kelas');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Tanggal Lahir</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="tanggal" id="tanggal" value="<?php echo $tanggal;?>">
+                    <input type="text" name="tanggal" id="tanggal" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('tanggal');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('tanggal');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Tempat Lahir</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="tempat" id="tempat" value="<?php echo $tempat;?>">
+                    <input type="text" name="tempat" id="tempat" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('tempat');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('tempat');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Alamat</th>
                 <th>:</th>
                 <td>
-                    <input type="text" name="alamat" id="alamat" value="<?php echo $nama;?>">
+                    <input type="text" name="alamat" id="alamat" >
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('alamat');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('alamat');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Jenis Kelamin</th>
                 <th>:</th>
                 <td>
-                    <input type="radio" name="jkel" id="pria" value="Pria" checked>Pria
+                    <input type="radio" name="jkel" id="pria" value="Pria">Pria
                     <input type="radio" name="jkel" id="wanita" value="Wanita">Wanita
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('jkel');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('jkel');?></b></span></td>
             </tr>
             <tr>
                 <th align="right">Agama</th>
                 <th>:</th>
                 <td>
                     <select name="agama" id="agama">
-                        <option value=" value="<?php echo $nama;?>">Agama</option>
+                        <option value="">Agama</option>
                         <option value="Islam">Islam</option>
                         <option value="Kristen">Kristen</option>
                         <option value="Katolik">Katolik</option>
@@ -115,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="Khonghucu">Khonghucu</option>
                     </select>
                 </td>
-                <td><p style="font-size:14px;color:red;"><b><?= $validation->getError('agama');?></b></p></td>
+                <td><span style="font-size:14px;color:red;"><b>* <?= $validation->getError('agama');?></b></span></td>
             </tr>
             <tr>
                 <td colspan="3" align="center">

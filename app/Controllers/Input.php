@@ -5,7 +5,19 @@ namespace App\Controllers;
 
 class Input extends BaseController{
     public function index(){
-        helper('form');
+        session();
+        
+        $data = [
+            'title' => 'Form Tambah Data Mahasiswa',
+            'validation' => \Config\Services::validation()
+        ];
+
+        return view('form_input', $data);
+
+        
+    }
+
+    public function hasil(){
 
         if (! $this->validate([
             'nama' => 'required',
@@ -46,16 +58,10 @@ class Input extends BaseController{
                 ],
             ])) 
         {
-            echo view('form_input', [
-                'validation' => $this->validator,
-            ]);
-        } else {
-            $this->input = new Input();
-            return $this->input->hasil();
-        }
-    }
+            $validation = \Config\Services::validation();
+            return redirect()->to('../input')->withInput();
+        }else{
 
-    public function hasil(){
         $data = [
             'nama' => $_POST["nama"],
             'nis' => $_POST["nis"],
@@ -68,5 +74,6 @@ class Input extends BaseController{
         ];
 
         return view('hasil_input', $data);
+    }
     }
 }
